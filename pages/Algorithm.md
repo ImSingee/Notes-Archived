@@ -1,5 +1,6 @@
 ---
 title: Algorithm
+public: true
 ---
 
 - [[基本数据结构]]
