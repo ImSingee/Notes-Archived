@@ -1,8 +1,10 @@
 ---
 title: Algorithm
-public: true
+public:: true
 ---
 
+-
+-
 - [[基本数据结构]]
 -
 - [[LeetCode 题目集合]]
