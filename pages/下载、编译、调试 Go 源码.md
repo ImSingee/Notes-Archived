@@ -106,6 +106,6 @@
   # L184
   GOROOT="$GOROOT_BOOTSTRAP" GOOS="" GOARCH="" GO111MODULE=off "$GOROOT_BOOTSTRAP/bin/go" build -o cmd/dist/dist ./cmd/dist
   
-  # L
+  # L206-210
   ./cmd/dist/dist bootstrap -a $vflag $GO_DISTFLAGS "$@"
   ```
