@@ -173,7 +173,7 @@
 
  :ref/linked-references-collapsed-threshold 50
  :favorites ["Home" "操作系统" "看电影学单词" "Algorithm" "Go 工程化"]
- :publishing/all-pages-public? true
+ :publishing/all-pages-public? false
  :feature/enable-encryption? true
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
