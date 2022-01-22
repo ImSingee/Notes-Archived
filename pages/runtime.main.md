@@ -2,8 +2,6 @@
 title: runtime.main
 ---
 
-- #go #go1.16 #TODO
-
-- 
-
+- #golang #go1.16 #TODO
+-
 - https://github.com/golang/go/blob/release-branch.go1.16/src/runtime/proc.go#L115
