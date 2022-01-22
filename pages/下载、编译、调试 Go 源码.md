@@ -100,3 +100,5 @@
 	  exec ../bin/go tool dist test -rebuild "$@"
 	  ```
 - 不过是检查了下是否已经 make 过、设置一些环境变量、设置 ulimit 后运行测试 `go tool dist test -rebuild`
+-
+-
