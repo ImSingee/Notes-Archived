@@ -6,4 +6,4 @@
   git clone git@github.com:golang/go.git
   cd /opt/go
   ```
-- 首先第一步永远是
+- 首先第一步永远是进行测试保证你下载的代码没有问题，
