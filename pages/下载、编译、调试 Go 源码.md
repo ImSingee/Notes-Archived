@@ -1,1 +1,1 @@
-- Go 的源码存放在 [官方 Repo](https://go.googlesource.com/go) 和 Github Mirror
+- Go 的源码存放在 [官方 Repo](https://go.googlesource.com/go) 和 [Github Mirror](https://github.com/golang/go)，为了简化
