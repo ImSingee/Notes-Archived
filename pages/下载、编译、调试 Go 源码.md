@@ -120,4 +120,4 @@
 	  3. Using dist, rebuild Go 1.x compiler toolchain with itself.
 	  4. Using dist, build Go 1.x cmd/go (as go_bootstrap) with Go 1.x compiler toolchain.
 	  5. Using go_bootstrap, build the remaining Go 1.x standard library and commands.
-	- https://github.com/golang/go/blob/go1.17.6/src/cmd/dist/README#L7-L13
+	-
