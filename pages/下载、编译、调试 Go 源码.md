@@ -5,6 +5,7 @@
   sudo chown `whoami`:staff go
   git clone git@github.com:golang/go.git
   cd /opt/go
+  git checkout go1.17.6
   ```
 - 首先第一步永远是进行测试保证你下载的代码没有问题，Go 已经实现了 [[自举]]，因此必须已经[安装](https://go.dev/doc/install)好了 Go
 - ```shell
