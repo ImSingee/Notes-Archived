@@ -1,1 +1,1 @@
-- Go 的源码存放在 [官方 Repo](https://go.googlesource.com/go) 和 [Github Mirror](https://github.com/golang/go)，为了简化开始的流程，我们直接从 Github 克隆，同时，为了避免出问题，我们
+- Go 的源码存放在 [官方 Repo](https://go.googlesource.com/go) 和 [Github Mirror](https://github.com/golang/go)，为了简化开始的流程，我们直接从 Github 克隆，同时，为了避免出问题，我们不从 master 分支开始
