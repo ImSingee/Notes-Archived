@@ -17,4 +17,5 @@
 -
 - 简单看下 [all.bash](https://github.com/golang/go/blob/go1.17.6/src/all.bash) 做了什么
 - ```bash
+  https://github.com/golang/go/blob/go1.17.6/src/all.bash
   ```
