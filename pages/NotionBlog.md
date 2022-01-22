@@ -1,3 +1,5 @@
 - #[[Side Projects]]
 -
+- NotionBlog 项目原始来源于 [https://www.notion.so/singee/NotionBlog-531a4be88870446d912dc618cb91fa41]，因种种原因计划使用 Rust 重构
+- 说来也巧，这个项目是我第一个做的 Go 项目，所以有各种现在看来无法忍受的问题
 -
