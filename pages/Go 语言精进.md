@@ -1,8 +1,9 @@
 - 为了成为 Go 语言真正的专家，我们绝不能满足于表象的使用，更要对于整个 Go 的核心源码有所了解
 -
+-
 - [[Go 语言内建指令]]
 - [[Golang Panic]]
--
+- [[Golang 垃圾回收]]
 -
 - # 参考资料
 - [Go 语言原本](https://golang.design/under-the-hood/)
