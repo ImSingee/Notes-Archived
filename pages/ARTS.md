@@ -1,1 +1,2 @@
-- ARTS 起源于极客时间《左耳听风》专栏
+- ARTS 起源于[极客时间《左耳听风》专栏](https://time.geekbang.org/column/intro/48)，要求每周完成
+	-
