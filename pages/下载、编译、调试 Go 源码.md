@@ -102,4 +102,5 @@
 - 不过是检查了下是否已经 make 过、设置一些环境变量、设置 ulimit 后运行测试 `go tool dist test -rebuild`
 -
 - [make.bash](https://github.com/golang/go/blob/go1.17.6/src/make.bash) 则是进行的真正的编译，但剔除掉各种检查和环境变量的设置，其真正核心的内容不过是两行
-- ``````
+- ```bash
+  ```
