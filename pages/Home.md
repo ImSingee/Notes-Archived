@@ -1,4 +1,4 @@
-- Hi, 我是 Singee，或者有时你看到的可能是 Bryan Wong
+- Hi, 我是 Singee，或者有时你看到的我的昵称可能是 Bryan Wong
 	- 我的博客 [Origin](https://blog.singee.me)
 	- 我的随笔 [BB Space](https://t.singee.me/)
 	- 我的知识库 [Singee's 知识库](https://base.singee.me)
