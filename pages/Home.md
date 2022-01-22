@@ -6,7 +6,7 @@
 	- 我的高亮 [Bryan's Highlights](https://highlights.singee.me) | [订阅](https://readwise.io/@singee)
 	- 我的 Github [@ImSingee](https://github.com/ImSingee)
 	- 我的 Twitter [Bryan @imsingee](https://twitter.com/imsingee)
-	- 我的邮箱 [contact.2022@singee.me](mailto:contact713@singee.me)（这个邮箱会不定时改变，如需联系我请始终使用最新的邮箱）
+	- 我的邮箱 [contact.2022@singee.me](mailto:contact.2022@singee.me)（这个邮箱会不定时改变，如需联系我请始终使用最新的邮箱）
 -
 - 这里是我的笔记，相比于博客，这里记录的更多的是零碎的内容，可能内容不完善甚至有很多的错误，敬请谅解
 -
