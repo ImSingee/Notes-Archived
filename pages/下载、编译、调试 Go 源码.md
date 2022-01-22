@@ -34,4 +34,8 @@
   $GOTOOLDIR/dist banner  # print build info
   ```
 -
-- 1. 如果
+- 1. 如果 make.bash 不存在，则报错
+  2. 运行 make.bash
+  3. 运行 run.bash
+  4. 打印 build info
+-
