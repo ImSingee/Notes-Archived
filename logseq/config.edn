@@ -172,7 +172,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites ["Home" "操作系统" "看电影学单词" "Algorithm" "Go 工程化"]
+ :favorites ["TODO" "Home" "操作系统" "看电影学单词" "Algorithm" "Go 工程化"]
  :publishing/all-pages-public? true
  :feature/enable-encryption? false
 
