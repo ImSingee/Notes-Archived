@@ -105,4 +105,7 @@
 - ```bash
   # L184
   GOROOT="$GOROOT_BOOTSTRAP" GOOS="" GOARCH="" GO111MODULE=off "$GOROOT_BOOTSTRAP/bin/go" build -o cmd/dist/dist ./cmd/dist
+  
+  # 
+  ./cmd/dist/dist bootstrap -a $vflag $GO_DISTFLAGS "$@"
   ```
