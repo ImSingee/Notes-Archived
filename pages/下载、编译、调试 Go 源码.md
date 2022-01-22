@@ -113,4 +113,11 @@
   ./cmd/dist/dist bootstrap -a $vflag $GO_DISTFLAGS "$@"
   ```
 - 即编译 [cmd/dist](https://pkg.go.dev/cmd/dist) 然后运行它（传递 bootstrap 子命令）来执行真正的编译过程
-- 而 cmd/dist 所做的事情，在官方的帮助中
+- 而 cmd/dist 所做的事情，也就是真正的编译 Go 了，在[官方的帮助](https://github.com/golang/go/blob/go1.17.6/src/cmd/dist/README#L7-L13)中写明了流程
+	- The process to install Go 1.x, for x ≥ 5, is:
+	- 1. Build cmd/dist with Go 1.4.
+	  2. Using dist, build Go 1.x compiler toolchain with Go 1.4.
+	  3. Using dist, rebuild Go 1.x compiler toolchain with itself.
+	  4. Using dist, build Go 1.x cmd/go (as go_bootstrap) with Go 1.x compiler toolchain.
+	  5. Using go_bootstrap, build the remaining Go 1.x standard library and commands.
+	- https://github.com/golang/go/blob/go1.17.6/src/cmd/dist/README#L7-L13
