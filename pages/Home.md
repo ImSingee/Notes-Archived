@@ -1,5 +1,5 @@
 - Hi, 我是 Singee，或者有时你看到的我的昵称可能是 Bryan Wong
-	- 我的博客 [Origin](https://blog.singee.me)
+	- 我的博客 [Origin](https://blog.singee.me) | [RSS 订阅](https://blog.singee.me/atom.xml)
 	- 我的碎碎念 [Twitter @imsingee](https://twitter.com/imsingee) | ~~[BB Space（暂停维护）](https://t.singee.me/)~~
 	- 我的动态 [Singee 的日常](https://t.me/singee_daily)（筹备中）
 	- 我的知识库 [Singee's 知识库](https://base.singee.me)
