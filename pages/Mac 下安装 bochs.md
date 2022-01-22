@@ -13,5 +13,7 @@
     --enable-disasm \
     --enable-iodebug \
     --enable-x86-debugger
+  make
+  make install
   ```
 -
