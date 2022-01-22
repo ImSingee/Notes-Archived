@@ -1,2 +1,2 @@
-- Hi, 我是 Singee
+- Hi, 我是 Singee，或者有时你看到的可能是 Bryan Wong
 -
