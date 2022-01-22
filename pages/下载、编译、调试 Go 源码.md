@@ -99,4 +99,4 @@
 	  
 	  exec ../bin/go tool dist test -rebuild "$@"
 	  ```
--
+- 不过是检查了下是否已经 make 过、
