@@ -113,4 +113,4 @@
   ./cmd/dist/dist bootstrap -a $vflag $GO_DISTFLAGS "$@"
   ```
 - 即编译 [cmd/dist](https://pkg.go.dev/cmd/dist) 然后运行它（传递 bootstrap 子命令）来执行真正的编译过程
--
+- 而 cmd/dist 所做的事情，在官方的帮助中
