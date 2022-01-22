@@ -1,2 +1,2 @@
--
+- [[2022-01-22]]
 - {{query (between -7d today)}}
