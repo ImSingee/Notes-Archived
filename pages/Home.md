@@ -1,5 +1,5 @@
 - Hi, 我是 Singee，或者有时你看到的可能是 Bryan Wong
 	- 我的博客 [Origin](https://blog.singee.me)
 	- 我的 Github [@ImSingee](https://github.com/ImSingee)
-	- 我的 Twitter
+	- 我的 Twitter [Bryan @imsingee](https://twitter.com/imsingee)
 -
