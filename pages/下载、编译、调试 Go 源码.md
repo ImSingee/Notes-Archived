@@ -40,4 +40,5 @@
   4. 打印 build info
 -
 - [run.bash](https://github.com/golang/go/blob/go1.17.6/src/run.bash) 所做的事情也很简单
-	- ``````
+	- ```bash
+	  ```
