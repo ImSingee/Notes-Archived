@@ -112,5 +112,5 @@
   # Throw ours, built with Go 1.4, away after bootstrap.
   ./cmd/dist/dist bootstrap -a $vflag $GO_DISTFLAGS "$@"
   ```
-- 即编译 [cmd/dist](https://pkg.go.dev/cmd/dist) 然后运行它来执行真正的编译过程
+- 即编译 [cmd/dist](https://pkg.go.dev/cmd/dist) 然后运行它（传递 bootstrap 子命令）来执行真正的编译过程
 -
