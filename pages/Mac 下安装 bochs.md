@@ -9,8 +9,9 @@
   cd /Applications/bochs-2.7
   ./configure\
     --prefix /Applications/bochs-2.7/bochs \
-    --enable-debugger\
-    --enable-disasm\
-    --enable
+    --enable-debugger \
+    --enable-disasm \
+    --enable-iodebug \
+    --enable-x86-debugger
   ```
 -
