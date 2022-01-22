@@ -1,8 +1,3 @@
----
-title: Go 工程化
-public: true
----
-
 - 来源于 [Go工程化](https://lailin.xyz/post/go-training-week4-clean-arch.html) 系列
 -
 - 编程范式
