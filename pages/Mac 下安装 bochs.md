@@ -8,6 +8,7 @@
 - ```bash
   cd /Applications/bochs-2.7
   ./configure --prefix /Applications/bochs-2.7/bochs \
-     
+     --enable-debugger\
+    
   ```
 -
