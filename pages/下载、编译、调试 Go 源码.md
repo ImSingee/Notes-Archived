@@ -10,6 +10,5 @@
 - 首先第一步永远是进行测试保证你下载的代码没有问题，Go 已经实现了 [[自举]]，因此必须已经[安装](https://go.dev/doc/install)好了 Go
 - ```shell
   cd /opt/go/src
-  ./all.bash # 编译、安装、测试 Go 命令
+  ./all.bash # 编译并测试 Go 命令
   ```
--
