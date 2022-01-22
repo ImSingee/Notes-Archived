@@ -112,4 +112,4 @@
   # Throw ours, built with Go 1.4, away after bootstrap.
   ./cmd/dist/dist bootstrap -a $vflag $GO_DISTFLAGS "$@"
   ```
--
+- 即编译
