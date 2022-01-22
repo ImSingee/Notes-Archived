@@ -1,4 +1,7 @@
 - #bochs
 -
 - bochs [官网](https://bochs.sourceforge.io/)
+- v2.7 [下载地址](https://sourceforge.net/projects/bochs/files/bochs/2.7/)
+-
+-
 -
