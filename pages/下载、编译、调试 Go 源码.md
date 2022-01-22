@@ -7,4 +7,5 @@
   cd /opt/go
   ```
 - 首先第一步永远是进行测试保证你下载的代码没有问题，Go 已经实现了 [[自举]]，因此必须已经[安装](https://go.dev/doc/install)好了 Go
-- ```bash```
+- ```shell
+  ```
