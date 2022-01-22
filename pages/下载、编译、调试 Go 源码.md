@@ -1,6 +1,8 @@
 - Go 的源码存放在 [官方 Repo](https://go.googlesource.com/go) 和 [Github Mirror](https://github.com/golang/go)，为了简化开始的流程，我们直接从 Github 克隆，同时，为了避免出问题，我们不从 master 分支开始，而是在克隆后切换到最新的稳定 tag（写这篇文章时是 `go1.17.6`）
 - ```
   cd /opt
+  sudo mkdir go
+  sudo chown 
   git clone git@github.com:golang/go.git
   cd /opt/go
   ```
