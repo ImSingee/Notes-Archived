@@ -2,7 +2,7 @@
 title: Go 连续栈
 ---
 
-- #golang #go1.16 #stack
+- #Golang #go1.16 #stack
 - Go 的递归是否会出现栈溢出？
 	- 一个验证方式是使用递归方式计算数列和
 	-

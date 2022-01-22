@@ -2,7 +2,7 @@
 title: uintptr
 ---
 
-- #golang #go1.16
+- #Golang #go1.16
 - https://github.com/golang/go/blob/release-branch.go1.16/src/builtin/builtin.go#L81-L83
 -
 - ```javascript
