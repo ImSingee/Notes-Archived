@@ -2,6 +2,7 @@
 	- 我的博客 [Origin](https://blog.singee.me)
 	- 我的随笔 [BB Space](https://t.singee.me/)
 	- 我的知识库 [Singee's 知识库](https://base.singee.me)
+	- 我的笔记 [Singee's Notes](https://notes.singee.me)
 	- 我的 Github [@ImSingee](https://github.com/ImSingee)
 	- 我的 Twitter [Bryan @imsingee](https://twitter.com/imsingee)
 -
