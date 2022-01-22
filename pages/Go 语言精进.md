@@ -7,7 +7,7 @@
 - [[Golang 垃圾回收]]
 - [[Go 工程化]]
 -
-- {{query (or [[golang]]) }}
+- {{query (or [[golang]] (property language golang)) }}
 -
 - # 参考资料
 - [Go 语言原本](https://golang.design/under-the-hood/)
