@@ -2,7 +2,7 @@
 - ```
   cd /opt
   sudo mkdir go
-  sudo chown staff:`whoami` go
+  sudo chown `whoami`:staff go
   git clone git@github.com:golang/go.git
   cd /opt/go
   ```
