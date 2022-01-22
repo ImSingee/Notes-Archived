@@ -7,4 +7,5 @@
 	- 我的 Twitter [Bryan @imsingee](https://twitter.com/imsingee)
 	- 我的邮箱 [contact713@singee.me](mailto:contact713@singee.me)（这个邮箱会不定时改变，如需联系我请始终使用最新的邮箱）
 -
+- 这里是我的笔记，但它的更新可能
 -
