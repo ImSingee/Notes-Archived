@@ -5,3 +5,4 @@
 -
 - 我们选择源码包下载（[bochs-2.7.tar.gz](https://sourceforge.net/projects/bochs/files/bochs/2.7/bochs-2.7.tar.gz/download)），解压放到 `/Applications/bochs-2.7` 下
 -
+-
