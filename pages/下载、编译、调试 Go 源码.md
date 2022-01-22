@@ -106,6 +106,10 @@
   # L184
   GOROOT="$GOROOT_BOOTSTRAP" GOOS="" GOARCH="" GO111MODULE=off "$GOROOT_BOOTSTRAP/bin/go" build -o cmd/dist/dist ./cmd/dist
   
-  # L206-210
+  # L206-209
+  # Run dist bootstrap to complete make.bash.
+  # Bootstrap installs a proper cmd/dist, built with the new toolchain.
+  # Throw ours, built with Go 1.4, away after bootstrap.
   ./cmd/dist/dist bootstrap -a $vflag $GO_DISTFLAGS "$@"
   ```
+-
