@@ -1,6 +1,6 @@
 - Hi, 我是 Singee，或者有时你看到的我的昵称可能是 Bryan Wong
 	- 我的博客 [Origin](https://blog.singee.me)
-	- 我的随笔 [BB Space](https://t.singee.me/) | [Singee 的日常]
+	- 我的随笔 [BB Space](https://t.singee.me/) | [Singee 的日常](https://t.me/singee_daily)
 	- 我的知识库 [Singee's 知识库](https://base.singee.me)
 	- 我的笔记 [Singee's Notes](https://notes.singee.me) | [内容讨论](https://github.com/ImSingee/Notes/discussions) | [反馈错误](https://github.com/ImSingee/Notes/issues/new)
 	- 我的高亮 [Bryan's Highlights](https://highlights.singee.me) | [订阅](https://readwise.io/@singee)
