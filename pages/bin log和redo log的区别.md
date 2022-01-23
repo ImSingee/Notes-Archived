@@ -2,3 +2,4 @@
 -
 - [[binlog]] 为 [[mysql]] 的 Server 层实现的，而 [[redolog]] 为 [[InnoDB]] 引擎所特有的
 -
+-
