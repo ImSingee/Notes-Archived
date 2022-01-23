@@ -27,13 +27,13 @@
 - **为什么会有两份日志呢？**
 	- 因为最开始 MySQL 里并没有 InnoDB 引擎。MySQL 自带的引擎是 [[MyISAM]]，但是 MyISAM 没有 crash-safe 的能力，**binlog 日志只能用于归档**。而 InnoDB 是另一个公司以插件形式引入 MySQL 的，既然只依靠 binlog 是没有 crash-safe 能力的，所以 InnoDB 使用另外一套日志系统——也就是 redo log 来实现 crash-safe 能力。
 - **异常情况分析**
-	- 对于语句 `update T set c=1 where ID=1;` （假定 c 之前在数据库中值为 0）而言，redo log 和 binlog 将按照如下情况准备
+	- 对于语句 `update T set c=1 where ID=1;` （假定 c 之前在数据库中值为 0）而言，redo log 和 binlog 将按照如下情况准备（两阶段提交）
 		- 1. redo log prepare
 		  2. binlog
 		  3. redo log commit
 		- 当 1-2 步失败时，crash 恢复（利用 redo log 和 binlog）时发现没有 binlog，因此回滚事务，c 的值依然为 0，备份恢复（利用 binlog）时因为没有 binlog 因此 c 的值依然为 0，一致
 		- 当 2-3 步失败时，crash 恢复时发现有 binlog，因此自动 commit redo log，事务生效，c 的值被更新为 1，备份恢复时因为有 binlog 因此 c 的值也为 1，一致
-	-
+	- 如果没有用到两阶段提交，而是简单的
 - # 参考
 - [gaolijiemathcs 的答案](https://github.com/Monsooooon/CruelFundamental/blob/main/homework/202201/23/gaolijiemathcs.md)
 - [02 | 日志系统：一条SQL更新语句是如何执行的？](https://time.geekbang.org/column/article/68633)
