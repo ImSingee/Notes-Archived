@@ -14,9 +14,9 @@
 	- 使用 cache 的原因：一个事务的 [[binlog]] 是不能被拆开的，因此不论这个事务多大，也要确保一次性写入。如果 cache 不够那么会暂存到磁盘。
 	- 每个线程有自己 binlog cache，但是共用同一份 binlog 文件。
 	- cache 到 file 调用 write 和 fsync 的时机，是由参数 sync_binlog 控制的：
-- sync_binlog=0 的时候，表示每次提交事务都只 write，不 fsync；
-- sync_binlog=1 的时候，表示每次提交事务都会执行 fsync；
-- sync_binlog=N (N>1) 的时候，表示每次提交事务都 write，但累积 N 个事务后才 fsync。
+		- sync_binlog=0 的时候，表示每次提交事务都只 write，不 fsync；
+		- sync_binlog=1 的时候，表示每次提交事务都会执行 fsync；
+		- sync_binlog=N (N>1) 的时候，表示每次提交事务都 write，但累积 N 个事务后才 fsync。
 -
 - 事务在执行过程中，生成的 [[redo log]] 是要先写到 redo log buffer 的，而 redo log buffer 的内容并不需要实时持久化。
 - 如果事务执行期间 MySQL 发生异常重启，那这部分日志就丢了。由于事务并没有提交，所以这时日志丢了也不会有损失。
