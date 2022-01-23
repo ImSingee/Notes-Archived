@@ -1,7 +1,7 @@
 - #CruelCoding #[[2022-01-23]] [讨论](https://github.com/Monsooooon/CruelFundamental/tree/main/homework/202201/23)
 -
 - [[binlog]] 为 [[mysql]] 的 Server 层实现的，而 [[redo log]] 为 [[InnoDB]] 引擎所特有的
--
+- [[redo log]]为物理日志，记录在某个数据页上面做什么修改；[[binlog]]为逻辑语句日志，记录的是这个语句的原始逻辑，例如id=x的这一行的某个字段+1
 -
 - [[binlog]] 的写入逻辑比较简单：事务执行过程中，先把日志写到 binlog cache，[[事务]]提交的时候，再把 binlog cache 写到 binlog 文件中。
   
