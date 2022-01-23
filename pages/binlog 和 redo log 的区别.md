@@ -14,7 +14,7 @@
 		- 每个线程有自己 binlog cache，但是共用同一份 binlog 文件。
 		- cache 到 file 调用 write 和 fsync 的时机，是由参数 sync_binlog 控制的：
 			- sync_binlog=0 的时候，表示每次提交事务都只 write，不 fsync；
-			- sync_binlog=1 的时候，表示每次提交事务都会执行 fsync；【建议】
+			- sync_binlog=1 的时候，表示每次提交事务都会执行 fsync；【建议（即双一配置）】
 			- sync_binlog=N (N>1) 的时候，表示每次提交事务都 write，但累积 N 个事务后才 fsync。
 - [[redo log]] 用于实现 [[crash-safe]] 能力（有了 redo log，InnoDB 就可以保证即使数据库发生异常重启，之前提交的记录都不会丢失，这个能力称为 crash-safe），[[binlog]] 仅仅用来归档，无法实现 carsh-safe
 -
