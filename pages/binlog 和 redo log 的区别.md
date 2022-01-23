@@ -42,3 +42,4 @@
 - [必须了解的mysql三大日志-binlog、redo log和undo log](https://segmentfault.com/a/1190000023827696)
 - [mysql中InnoDB引擎中页的概念](https://segmentfault.com/a/1190000008545713)
 - [Why we still need innodb redo log when mysql binlog has been enabled?](https://stackoverflow.com/questions/57983490/why-we-still-need-innodb-redo-log-when-mysql-binlog-has-been-enabled)
+- [Redo Log](https://dev.mysql.com/doc/refman/8.0/en/innodb-redo-log.html)
