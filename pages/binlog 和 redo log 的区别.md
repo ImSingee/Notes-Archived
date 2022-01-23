@@ -41,3 +41,4 @@
 - # 参考
 - [gaolijiemathcs 的答案](https://github.com/Monsooooon/CruelFundamental/blob/main/homework/202201/23/gaolijiemathcs.md)
 - [02 | 日志系统：一条SQL更新语句是如何执行的？](https://time.geekbang.org/column/article/68633)
+- [为什么 redo log 具有 crash-safe 的能力，是 binlog 无法替代的？](https://cloud.tencent.com/developer/article/1757612)
