@@ -9,7 +9,7 @@
 	- [[redo log]] 记录数据页「做了什么改动」
 	- [[binlog]] 有两种模式，statement 格式的话是记sql语句， row格式会记录行的内容，记两条，更新前和更新后都有。（一般采用row，因为遇到时间，从库可能会出现不一致的情况，但是row更新前后都有，会导致日志变大）
 - [[redo log]]循环写，空间固定会用完。[[binlog]]可以追加写，binlog写完一定大小，可以切换到下一个内容当中写，不会覆盖以前的内容。
-	- [[binlog]] 的写入逻辑：事务执行过程中，先把日志写到 binlog cache，[[事务]]提交的时候，再把 binlog cache 写到 binlog 文件中。
+	- [[binlog]] 的写入逻辑：事务**执行**过程中，先把日志写到 binlog cache，[[事务]]**提交**的时候，再把 binlog cache 写到 binlog 文件中。
 		- 使用 cache 的原因：一个事务的 [[binlog]] 是不能被拆开的，因此不论这个事务多大，也要确保一次性写入。如果 cache 不够那么会暂存到磁盘。
 		- 每个线程有自己 binlog cache，但是共用同一份 binlog 文件。
 		- cache 到 file 调用 write 和 fsync 的时机，是由参数 sync_binlog 控制的：
