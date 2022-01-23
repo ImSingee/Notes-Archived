@@ -2,6 +2,7 @@
 -
 - [[binlog]] 为 [[mysql]] 的 Server 层实现的，而 [[redo log]] 为 [[InnoDB]] 引擎所特有的
 -
+-
 - [[binlog]] 的写入逻辑比较简单：事务执行过程中，先把日志写到 binlog cache，[[事务]]提交的时候，再把 binlog cache 写到 binlog 文件中。
   
   使用 cache 的原因：一个事务的 [[binlog]] 是不能被拆开的，因此不论这个事务多大，也要确保一次性写入。如果 cache 不够那么会暂存到磁盘。
