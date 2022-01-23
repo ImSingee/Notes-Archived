@@ -23,8 +23,6 @@
 - [[redo log]] 用于实现 [[crash-safe]] 能力（有了 redo log，InnoDB 就可以保证即使数据库发生异常重启，之前提交的记录都不会丢失，这个能力称为 crash-safe），[[binlog]] 仅仅用来归档，无法实现 carsh-safe
 -
 -
-- 事务在执行过程中，生成的 [[redo log]] 是要先写到 redo log buffer 的，而 redo log buffer 的内容并不需要实时持久化。
--
 - **为什么会有两份日志呢？**
 	- 因为最开始 MySQL 里并没有 InnoDB 引擎。MySQL 自带的引擎是 [[MyISAM]]，但是 MyISAM 没有 crash-safe 的能力，**binlog 日志只能用于归档**。而 InnoDB 是另一个公司以插件形式引入 MySQL 的，既然只依靠 binlog 是没有 crash-safe 能力的，所以 InnoDB 使用另外一套日志系统——也就是 redo log 来实现 crash-safe 能力。
 - **异常情况分析**
