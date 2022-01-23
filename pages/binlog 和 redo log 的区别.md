@@ -21,6 +21,8 @@
 - redo log 持久化三种机制，以 innodb_flush_log_at_trx_commit 参数控制（可以参考上述 ACID 特性中的持久性里面的内容）。
 - 需要注意的是，如果把 innodb_flush_log_at_trx_commit 设置成 1，那么 redo log 在 prepare 阶段持久化一次而在 commit 阶段就不用 fsync 了而只是写到了文件系统 OS Page Cache（因为崩溃恢复逻辑是要依赖于 prepare 的 redo log 再加上 binlog 来恢复的，如果事务执行成功 binlog 已经写完了，就算这时崩溃 redo log 还是 prepare 状态也没问题）。
 -
+-
+-
 - # 参考
 - [gaolijiemathcs 的答案](https://github.com/Monsooooon/CruelFundamental/blob/main/homework/202201/23/gaolijiemathcs.md)
 - [02 | 日志系统：一条SQL更新语句是如何执行的？](https://time.geekbang.org/column/article/68633)
