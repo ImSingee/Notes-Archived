@@ -16,6 +16,7 @@
 			- sync_binlog=0 的时候，表示每次提交事务都只 write，不 fsync；
 			- sync_binlog=1 的时候，表示每次提交事务都会执行 fsync；【建议（即双一配置）】
 			- sync_binlog=N (N>1) 的时候，表示每次提交事务都 write，但累积 N 个事务后才 fsync。
+	- [[redo log]] 的写入逻辑：事务**执行**过程中，将日志写到 redo log buffer，redo log buffer 的内容并不需要实时持久化
 - [[redo log]] 用于实现 [[crash-safe]] 能力（有了 redo log，InnoDB 就可以保证即使数据库发生异常重启，之前提交的记录都不会丢失，这个能力称为 crash-safe），[[binlog]] 仅仅用来归档，无法实现 carsh-safe
 -
 -
