@@ -1,3 +1,4 @@
 - #CruelCoding #[[2022-01-23]] [讨论](https://github.com/Monsooooon/CruelFundamental/tree/main/homework/202201/23)
 -
-- [[binlog]] 为 [[mysql]] 的 Server 层实现的，而 [[redolog]]
+- [[binlog]] 为 [[mysql]] 的 Server 层实现的，而 [[redolog]] 为 [[InnoDB]] 引擎所特有的
+-
