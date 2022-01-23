@@ -1,2 +1,2 @@
-- #CruelCoding #[[2022-01-23]]
+- #CruelCoding #[[2022-01-23]] [讨论](https://github.com/Monsooooon/CruelFundamental/tree/main/homework/202201/23)
 -
