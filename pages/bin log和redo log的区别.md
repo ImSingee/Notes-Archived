@@ -1,1 +1,2 @@
-- #CruelCoding [[2022-01-23]]
+- #CruelCoding #[[2022-01-23]]
+-
