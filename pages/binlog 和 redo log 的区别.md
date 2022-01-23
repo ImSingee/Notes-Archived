@@ -6,7 +6,7 @@
 - [[redo log]]循环写，空间固定会用完。[[binlog]]可以追加写，binlog写完一定大小，可以切换到下一个内容当中写，不会覆盖以前的内容。
 - [[redo log]] 用于实现 [[crash-safe]] 能力（有了 redo log，InnoDB 就可以保证即使数据库发生异常重启，之前提交的记录都不会丢失，这个能力称为 crash-safe），[[binlog]] 仅仅用来归档，无法实现 carsh-safe
 - [[redo log]] 记录数据页 “做了什么改动”。
-- [[binlog]] 有两种模式，statement 格式的话是记sql语句， row格式会记录行的内容，记两条，更新前和更新后都有。
+- [[binlog]] 有两种模式，statement 格式的话是记sql语句， row格式会记录行的内容，记两条，更新前和更新后都有。（一般采用row，因为遇到时间，从库可能会出现不一致的情况，但是row更新前后都有，会导致日志变大）
 -
 - [[binlog]] 的写入逻辑比较简单：事务执行过程中，先把日志写到 binlog cache，[[事务]]提交的时候，再把 binlog cache 写到 binlog 文件中。
   
