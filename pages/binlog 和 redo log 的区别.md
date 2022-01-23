@@ -31,7 +31,8 @@
 		- 1. redo log prepare
 		  2. binlog
 		  3. redo log commit
-		- 当 1-2 步失败时，crash 恢复（利用 redo log 和 binlog）时发现没有 binlog，因此回滚事务，c 的值
+		- 当 1-2 步失败时，crash 恢复（利用 redo log 和 binlog）时发现没有 binlog，因此回滚事务，c 的值依然为 0
+		- 当 2-3 步失败时，
 - # 参考
 - [gaolijiemathcs 的答案](https://github.com/Monsooooon/CruelFundamental/blob/main/homework/202201/23/gaolijiemathcs.md)
 - [02 | 日志系统：一条SQL更新语句是如何执行的？](https://time.geekbang.org/column/article/68633)
