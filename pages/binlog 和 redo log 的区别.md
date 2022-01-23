@@ -37,7 +37,7 @@
 		- 当 2-3 步失败时，crash 恢复时发现有 binlog，因此自动 commit redo log，事务生效，c 的值被更新为 1，备份恢复时因为有 binlog 因此 c 的值也为 1，一致
 	- 如果没有用到两阶段提交，**事实上也是可以实现一致性的（这点网上写的很多都不对）**
 		- redo log 和 binlog 是有关联的，利用的是事务 ID
-		- 如果没有两阶段提交，想要从 crash 恢复必须要
+		- 如果没有两阶段提交，想要从 crash 恢复必须要对每条 redo log 都去查 binlog
 - # 参考
 - [gaolijiemathcs 的答案](https://github.com/Monsooooon/CruelFundamental/blob/main/homework/202201/23/gaolijiemathcs.md)
 - [02 | 日志系统：一条SQL更新语句是如何执行的？](https://time.geekbang.org/column/article/68633)
