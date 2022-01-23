@@ -1,7 +1,7 @@
 - #CruelCoding #[[2022-01-23]] #MySQL [讨论](https://github.com/Monsooooon/CruelFundamental/tree/main/homework/202201/23)
 -
 - [[binlog]] 为 [[mysql]] 的 Server 层实现的，而 [[redo log]] 为 [[InnoDB]] 引擎所特有的
-	- > MySQL 整体来看，其实就有两块：一块是 Server 层，它主要做的是 MySQL 功能层面的事情；还有一块是引擎层，负责存储相关的具体事宜。上面我们聊到的粉板 redo log 是 InnoDB 引擎特有的日志，而 Server 层也有自己的日志，称为 binlog（归档日志）。
+	- > MySQL 整体来看，其实就有两块：一块是 Server 层，它主要做的是 MySQL 功能层面的事情；还有一块是引擎层，负责存储相关的具体事宜。redo log 是 InnoDB 引擎特有的日志，而 Server 层也有自己的日志，称为 binlog（归档日志）。
 - [[redo log]]为物理日志，记录在某个数据页上面做什么修改；[[binlog]]为逻辑语句日志，记录的是这个语句的原始逻辑，例如id=x的这一行的某个字段+1
 - [[redo log]]循环写，空间固定会用完。[[binlog]]可以追加写，binlog写完一定大小，可以切换到下一个内容当中写，不会覆盖。
 -
